@@ -1,0 +1,7 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 52" width="320" height="52">
+  <g fill="#000000">
+    <path d="M19 0 L22 0 C22 2 22 1 18 41 L17 41 C13 1 13 2 19 0 Z"/>
+    <path d="M18 52 C4 52 -2 42 1 33 C4 24 10 18 7 11 C6 8 5 7 4 6 L5 4 C8 5 11 8 13 13 C16 21 11 27 9 34 C7 42 11 49 19 49 C30 49 31 32 22 27 L23 25 C38 28 40 52 18 52 Z"/>
+    <text x="42" y="38" font-family="Palatino,Georgia,serif" font-size="30" font-weight="400" letter-spacing="1">NOVARTIS</text>
+  </g>
+</svg>
