@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg"
      version="1.2" baseProfile="tiny"
-     viewBox="565.96 1301.60 798.37 798.37">
+     viewBox="0 0 500 500">
 
-  <!-- Background circle (dark navy, brand color) -->
-  <circle cx="965.14" cy="1700.785" r="399.185" fill="#080F18"/>
+  <!-- White background -->
+  <rect width="500" height="500" fill="#FFFFFF"/>
 
-  <!-- TechTank icon — original brand colors -->
-  <path transform="matrix(3,0,0,-3,1200.4909,1313.6035)" d="M0 0 28.885-17.666-78.774-50.26-189.961-17.666-161.077 0-78.774-20.307Z" fill="#1BAFAF" fill-rule="evenodd"/>
-  <path transform="matrix(3,0,0,-3,971.5371,2087.9757)" d="M0 0 21.233 14.374 48.497 154.355 111.692 179.299V236.795L0 203.364Z" fill="#808285" fill-rule="evenodd"/>
-  <path transform="matrix(3,0,0,-3,623.6559,1550.0791)" d="M0 0 63.193-24.943 90.458-164.925 111.692-179.299V24.065L0 57.497Z" fill="#404041" fill-rule="evenodd"/>
-  <path transform="matrix(3,0,0,-3,964.1676,1374.5247)" d="M0 0V0-29.953L-111.187 2.642-82.023 20.307Z" fill="#004243" fill-rule="evenodd"/>
+  <!-- TechTank icon centered in square canvas -->
+  <svg x="73" y="50" width="354" height="400" viewBox="611.66 1301.60 706.96 798.37">
+    <path transform="matrix(3,0,0,-3,1200.4909,1313.6035)" d="M0 0 28.885-17.666-78.774-50.26-189.961-17.666-161.077 0-78.774-20.307Z" fill="#1BAFAF" fill-rule="evenodd"/>
+    <path transform="matrix(3,0,0,-3,971.5371,2087.9757)" d="M0 0 21.233 14.374 48.497 154.355 111.692 179.299V236.795L0 203.364Z" fill="#808285" fill-rule="evenodd"/>
+    <path transform="matrix(3,0,0,-3,623.6559,1550.0791)" d="M0 0 63.193-24.943 90.458-164.925 111.692-179.299V24.065L0 57.497Z" fill="#404041" fill-rule="evenodd"/>
+    <path transform="matrix(3,0,0,-3,964.1676,1374.5247)" d="M0 0V0-29.953L-111.187 2.642-82.023 20.307Z" fill="#004243" fill-rule="evenodd"/>
+  </svg>
 
 </svg>
