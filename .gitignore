@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output (the bundle is regenerated during build)
+# We include it for now since it's needed for the site to function
+# speed-insights.bundle.js
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
