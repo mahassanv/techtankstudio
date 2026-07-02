@@ -1390,9 +1390,12 @@ footer{
       </div>
     </div>
     <div class="form-wrap reveal reveal-d2">
-      <form class="contact-form" id="contact-form" name="techtank-contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" novalidate>
-        <input type="hidden" name="form-name" value="techtank-contact">
-        <input type="text" name="bot-field" style="display:none">
+      <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+        <input type="hidden" name="access_key" value="e7f00392-b7a1-4ce8-ad26-bdfa4508ab2a">
+        <input type="hidden" name="subject" value="New Project Inquiry — TechTank Studio">
+        <input type="hidden" name="from_name" value="TechTank Studio Website">
+        <input type="checkbox" name="botcheck" style="display:none">
+
         <div class="form-row">
           <div class="form-group"><label class="form-label">First Name <span class="req">*</span></label><input type="text" class="form-input" name="first_name" placeholder="Ahmed" required></div>
           <div class="form-group"><label class="form-label">Last Name</label><input type="text" class="form-input" name="last_name" placeholder="Hassan"></div>
@@ -1594,7 +1597,7 @@ document.getElementById('contact-form').addEventListener('submit',async function
   btn.textContent='Sending...';btn.disabled=true;
   try{
     const fd=new FormData(e.target);
-    const res=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(fd).toString()});
+    const res=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(fd).toString()});
     if(res.ok){
       e.target.reset();
       suc.innerHTML='✅ &nbsp;Message sent! We\'ll be in touch within 24 hours.';
