@@ -1,0 +1,28 @@
+{
+  "name": "techtankstudio",
+  "version": "1.0.0",
+  "description": "TechTank Studio - Software Development Agency Website",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahassanv/techtankstudio.git"
+  },
+  "keywords": [
+    "software-development",
+    "web-development",
+    "mobile-app-development"
+  ],
+  "author": "TechTank Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahassanv/techtankstudio/issues"
+  },
+  "homepage": "https://github.com/mahassanv/techtankstudio#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
